@@ -1,7 +1,7 @@
 {
   "name": "@remix-run/dev",
   "version": "1.6.4",
-  "description": "Dev tools and CLI for Remix",
+  "description": "Dev tools and CLI for Remix by ZipBrandon",
   "homepage": "https://remix.run",
   "bugs": {
     "url": "https://github.com/remix-run/remix/issues"
