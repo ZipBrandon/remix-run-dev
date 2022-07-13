@@ -85,14 +85,5 @@
   },
   "engines": {
     "node": ">=14"
-  },
-  "files": [
-    "dist/",
-    "compiler/shims/",
-    "server-build.js",
-    "server-build.d.ts",
-    "CHANGELOG.md",
-    "LICENSE.md",
-    "README.md"
-  ]
+  }
 }
