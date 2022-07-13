@@ -213,6 +213,7 @@ async function watch(remixRootOrConfig, modeArg, callbacks) {
 
     onRebuildFinish() {
       log(`Rebuilt in ${prettyMs__default["default"](Date.now() - start)}`);
+      log(`Trying rebuildFinishedCallbacks`);
 
       for (let cb of config$1.rebuildFinishedCallbacks) {
         cb === null || cb === void 0 ? void 0 : cb();
