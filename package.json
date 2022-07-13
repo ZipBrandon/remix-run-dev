@@ -12,10 +12,10 @@
     "directory": "packages/remix-dev"
   },
   "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "./index.js",
+  "typings": "./index.d.ts",
   "bin": {
-    "remix": "dist/cli.js"
+    "remix": "./cli.js"
   },
   "dependencies": {
     "@babel/core": "^7.18.2",
