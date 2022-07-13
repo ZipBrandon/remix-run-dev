@@ -212,7 +212,7 @@ async function watch(remixRootOrConfig, modeArg, callbacks) {
     },
 
     onRebuildFinish() {
-      log(`Rebuilt in ${prettyMs__default["default"](Date.now() - start)}`);
+      log(`Rebuilted in ${prettyMs__default["default"](Date.now() - start)}`);
       log(`Trying rebuildFinishedCallbacks`);
 
       for (let cb of config$1.rebuildFinishedCallbacks) {
@@ -237,7 +237,7 @@ async function watch(remixRootOrConfig, modeArg, callbacks) {
     }
 
   });
-  console.log(`💿 Built in ${prettyMs__default["default"](Date.now() - start)}`);
+  console.log(`💿 Builted in ${prettyMs__default["default"](Date.now() - start)}`);
   let resolve;
   exitHook__default["default"](() => {
     resolve();
